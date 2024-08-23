@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.vscode
+!.vscode/settings.json
+
+.pypirc
+.pytest_cache/
+*.egg-info/
+data
