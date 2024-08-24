@@ -23,8 +23,6 @@ def load_md_files(file_path):
         with open(file_path, 'r') as f:
             return [{"text": f.read(), "extra_info": {"file_path": file_path}}]
         return []
-    
-
 
 documents = SimpleDirectoryReader(
     input_files=markdown_files,
